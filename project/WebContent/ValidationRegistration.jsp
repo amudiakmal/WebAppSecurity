@@ -19,7 +19,7 @@
 	int fHphone = Integer.parseInt(request.getParameter("fHphone"));
 	int lHphone = Integer.parseInt(request.getParameter("lHphone"));
     
-	if(Pattern.matches("^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$",name)==true){
+	if(Pattern.matches("^([a-zA-Z]+[\'\,\.\-]?[a-zA-Z ]*)+[ ]([a-zA-Z]+[\'\,\.\-]?[a-zA-Z ]+)+$",name)==true){
     	out.println("Name : " + name );
     }
     else{

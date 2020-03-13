@@ -2,8 +2,37 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<style>
+li {list-style-type: none;
+font-size: 16pt;
+}
+.register {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background : #D8F1F8;
+border: 1px soild silver;
+}
+.register h2 {
+margin-left: 38px;
+}
+input {
+font-size: 20pt;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+input submit {
+font-size: 12pt;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+</style>
 <title>Input Validation</title>
-<link rel="stylesheet" href="InputValidatio.css">
+<link rel="stylesheet" href="">
 </head>
 <body>
 
